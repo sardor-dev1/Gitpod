@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Global link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Local link -->
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Gitpod</title>
+</head>
+
+<body>
+
+    <div class="back-top">
+        <a href="#hero">
+            <i class="fa-solid fa-arrow-up-long"></i>
+        </a>
+    </div>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav df">
+                <div class="header__nav__logo">
+                    <a href="index.html">Gitpod</a>
+                </div>
+                <ul class="header__nav__right__list df">
+                    <li class="header__nav__right__list__item">
+                        <a href="#hero">Home</a>
+                    </li>
+                    <li class="header__nav__right__list__item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="header__nav__right__list__item">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="header__nav__right__list__item">
+                        <a href="#">Partners</a>
+                    </li>
+                    <li class="header__nav__right__list__item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="header__nav__right__list__close">
+                        <i class="fa-solid fa-x"></i>
+                    </li>
+                </ul>
+                <div class="header__nav__right__btns df">
+                    <button class="header__nav__right__btns__dark-mode">
+                        <i class="fa-solid fa-moon"></i>
+                        <i class="fa-solid fa-sun"></i>
+                    </button>
+                    <button class="header__nav__right__btns__contact">
+                        Contact
+                    </button>
+                    <button class="header__nav__right__btns__hamburger">
+                        <span class="header__nav__right__btns__hamburger__line"></span>
+                        <span class="header__nav__right__btns__hamburger__line"></span>
+                        <span class="header__nav__right__btns__hamburger__line"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="home df">
+                    <div class="home__info">
+                        <h1 class="home__info__tittle">Always <br> Ready to Code.</h1>
+                        <p class="home__info__text">
+                            Spin up fresh, automated dev environments for each task, in the cloud, in seconds.
+                        </p>
+                        <button class="home__info__btn">Try Now</button>
+                        <div class="home__info__btns-wrapp">
+                            <img data-aos="fade-down-right" class="home__info__btns-wrapp__icon"
+                                src="./images/home/Group.svg" alt="">
+                            <img data-aos="flip-up" class="home__info__btns-wrapp__icon" src="./images/home/Vector.svg"
+                                alt="">
+                            <img data-aos="fade-down-left" class="home__info__btns-wrapp__icon"
+                                src="./images/home/Frame.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="home__right">
+                        <img src="./images/home/Rectangle (14).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="about df">
+                    <div class="about__info">
+                        <h3 class="about__info__tittle">Think CI/CD for dev environments</h3>
+                        <p class="about__info__text">We invented prebuilds so application code, configuration and
+                            infrastructure can all be stored as machine-executable code
+                            in your git repositories and applied to dev environments automatically and continuously.</p>
+                        <div class="about__info__btns">
+                            <button data-aos="zoom-in-up" class="about__info__left-btn">More on prebuilds</button>
+                            <button data-aos="zoom-in-up" class="about__info__right-btn">Documentation</button>
+                        </div>
+                    </div>
+                    <div class="about__right">
+                        <img src="./images/about/Frame (15).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="started">
+            <div class="container">
+                <div class="started df">
+                    <div data-aos="zoom-in-down" class="started__card">
+                        <h3 class="started__card__tittle">Connect Git repository</h3>
+                        <p class="started__card__text">Select a Git provider to start with an existing project from any
+                            Git context.</p>
+                        <div class="started__card__btns">
+                            <button data-aos="zoom-out-right" class="started__card__btns__btn"><img
+                                    src="./images/home/Group.svg" alt="">Continue
+                                with GitLab</button>
+                            <button data-aos="zoom-out-left" class="started__card__btns__btn"><img
+                                    src="./images/home/Vector.svg" alt="">Continue
+                                with GitHub</button>
+                            <button data-aos="zoom-out-right" class="started__card__btns__btn"><img
+                                    src="./images/home/Frame.svg" alt="">Continue
+                                with GitLab</button>
+                        </div>
+                        <p class="started__card__text">Or prefix any GitLab, GitHub or Bitbucket URL with</p>
+                        <button class="started__card__bottom--btn">gitpod.io/#</button>
+                    </div>
+
+                    <div data-aos="zoom-in-down" class="started__card">
+                        <h3 class="started__card__tittle">Launch an example workspace</h3>
+                        <p class="started__card__text">Dive into one of our example workspaces</p>
+                        <div class="started__card__btns">
+                            <div data-aos="fade-down-right" class="started__card__btns__works df">
+                                <p class=""><img src="./images/started/Frame (1).svg" alt=""><span>Node or
+                                        TypeScript</span></p>
+                                <button>Launch workspace</button>
+                            </div>
+                            <div data-aos="fade-down-left" class="started__card__btns__works df">
+                                <p class=""><img src="./images/started/Frame (2).svg" alt=""><span>Go</span></p>
+                                <button>Launch workspace</button>
+                            </div>
+                            <div data-aos="fade-down-right" class="started__card__btns__works df">
+                                <p class=""><img src="./images/started/Frame (3).svg" alt=""><span>Rust</span></p>
+                                <button>Launch workspace</button>
+                            </div>
+                            <div data-aos="fade-down-left" class="started__card__btns__works df">
+                                <p class=""><img src="./images/started/Frame (4).svg" alt=""><span>Java</span></p>
+                                <button>Launch workspace</button>
+                            </div>
+                            <div data-aos="fade-down-right" class="started__card__btns__works df">
+                                <p class=""><img src="./images/started/Frame (5).svg" alt=""><span>Svelte</span></p>
+                                <button>Launch workspace</button>
+                            </div>
+                            <div data-aos="fade-down-left" class="started__card__btns__works df">
+                                <p class=""><img src="./images/started/Frame.svg" alt=""><span>Python</span></p>
+                                <button>Launch workspace</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer df">
+                <ul class="footer__list">
+                    <h4 class="footer__list__tittle">Gitpod</h4>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Home</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Features</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Pricing</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Changelog</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Self-Hosted</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Gitpod vs GitHub</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Status</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <h4 class="footer__list__tittle">Gitpod</h4>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Home</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Features</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Pricing</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Changelog</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Self-Hosted</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <h4 class="footer__list__tittle">Gitpod</h4>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Home</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Features</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Pricing</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Changelog</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <h4 class="footer__list__tittle">Gitpod</h4>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Home</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Features</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <a class="footer__list__item__link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__bottom df">
+                <div class="footer__bottom__left">
+                    <a href="#"><img src="./images/footer/Frame.svg" alt=""></a>
+                    <a href="#">Copyright</a>
+                    <p>2021 <bg>Gitpod</p>
+                </div>
+                <div class="footer__bottom__right">
+                    <a href="@"><img src="./images/footer/Frame (1).svg" alt=""></a>
+                    <a href="@"><img src="./images/footer/Frame (2).svg" alt=""></a>
+                    <a href="@"><img src="./images/footer/Frame (6).svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

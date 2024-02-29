@@ -1,0 +1,75 @@
+@use "../utils/veriables";
+
+:root {
+    --primaryColor: $primaryColor;
+    --secondaryColor: $secondaryColor;
+    --backgroundColor: $backgroundColor;
+    --hoverColor: $hoverColor;
+    --darkModeColor: $darkmodeColor;
+    --secondaryHoverColor: $secondaryHoverColor;
+}
+
+.dark {
+    --primaryColor: white;
+    --secondaryColor: black;
+    --darkModeColor: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+    font-family: Roboto;
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.df {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    bottom: 20px;
+    right: 20px;
+    background: var(--backgroundColor);
+    border-radius: 50%;
+    color: var(--secondaryColor);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.show__back-top {
+    display: flex;
+}

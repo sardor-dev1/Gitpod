@@ -1,0 +1,16 @@
+@use "./utils/veriables";
+
+@use"./themes/theme";
+
+@use"./component/button";
+
+@use"./utils/functions";
+
+@import "./base/reset";
+@import "./layout/header";
+
+@import "./pages/home";
+@import"./pages/about";
+@import "./pages/contact";
+
+@import "./layout/footer";
